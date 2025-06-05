@@ -38,13 +38,13 @@ class ProteinViewerMatplotlib:
         self.view_btn.config(state=tk.NORMAL)
 
     def view_3d(self):
-        # Парсинг PDB (упрощённый пример)
+        # Парсинг PDB
         points = self.parse_pdb_to_points()
 
         # Очистка предыдущего графика
         self.fig.clf()
 
-        # Создание 3D-оси
+        # Создание 3D-осей
         ax = self.fig.add_subplot(111, projection='3d')
 
         # Визуализация цепочки CA-атомов
