@@ -76,6 +76,7 @@ class ProteinViewerMatplotlib:
         return np.array(points)
 
 
+
 if __name__ == "__main__":
     root = tk.Tk()
     app = ProteinViewerMatplotlib(root)
