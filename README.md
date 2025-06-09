@@ -28,6 +28,7 @@ import numpy as np
 
 
 **Структура:**
+
 _class ProteinViewerMatplotlib: _
 
 (Графическое приложение для визуализации 3D-структур белков из PDB-файлов. 
